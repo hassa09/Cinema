@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Player from "./Components/MainCarousel/Player";
 import Navbar from './Components/Navbar/Navbar';
-import MainCarousel from './Components/MainCarousel/MCarousel';
+import { LandingPage } from "./LandingPage";
 
 function App() {
   return (
@@ -8,7 +9,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={ <MainCarousel />} />
+          <Route path='/' element={< LandingPage />} />
+          
 
         </Routes>
 

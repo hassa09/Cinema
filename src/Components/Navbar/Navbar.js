@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import './Navbar.scss';
 import { Icon } from '@iconify/react';
-import Logo from "../../Assets/images/VueLogo.png"
+import Logo from "../../Assets/OtherImages/VueLogo.png"
 
 
 function Navbar() { 
