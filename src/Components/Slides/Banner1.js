@@ -21,7 +21,7 @@ const Banner1 = () => {
 
     fetchData();
   }, []);
-  // console.log(movie);
+  console.log(movie);
 
   return (
     <>
@@ -31,20 +31,20 @@ const Banner1 = () => {
       backgroundPosition: "center center",
       
       }}>
-        <div className="TextBanner">
-          <div className="movieName"><h1 className='movie_Name'>Top Gun: Double Bill</h1></div>
+        {/* <div className="TextBanner">
+          <div className="movieName"><h1 className='movie_Name'>Top Gun: Double Bill</h1></div> */}
           
-          <p className='Showing'>Now showing at your local Vue</p>
+          {/* <p className='Showing'>Now showing at your local Vue</p>
 
-        </div>
-        <div className='icon_btn'>
+        </div> */}
+        {/* <div className='icon_btn'>
           <button className='BannerBtn'><Icon icon="ant-design:play-circle-outlined" width="95" height="95"
           /></button>
 
           
           <button className='BookNow'>Book Now</button>
         
-        </div>
+        </div> */}
 
         
       </header>
