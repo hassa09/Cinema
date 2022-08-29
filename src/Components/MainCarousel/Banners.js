@@ -15,9 +15,9 @@ function Banners() {
         <Banner items={ items} />
 
       </section>
-      <div className="margin">
-        
-        </div>
+      <div className="margin"> 
+      </div>
+      
 
 
 
