@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from '../Slides/axios'; 
 
-
-
 function TopFilms({ title, fetchUrl, isLargeRow = true }) {
     const [movies, setMovies] = useState([]);
     const base_url = "https://image.tmdb.org/t/p/original";
@@ -16,7 +14,7 @@ function TopFilms({ title, fetchUrl, isLargeRow = true }) {
         fetchData();
 
     }, [fetchUrl]);
-    console.log(movies);
+    // console.log(movies);
     
     
     

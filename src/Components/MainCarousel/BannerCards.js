@@ -27,16 +27,16 @@ function BannerCards({ item: { cover, name, Cast, video, date, certificate, play
     <>
       <div className="imageBox">
       <div className="sliderImages">
-          {/* <img src={cover} alt='banner' className='Images1' /> */}
+          <img src={cover} alt='banner' className='Images1' />
           
-          <Video className='Images1' loop 
+          {/* <Video className='Images1' loop 
             controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
             poster={cover}
             onCanPlayThrough={() => {
                 // Do stuff
             }}><source src={ video }type="video/webm" />
               <track label="English" default />
-            </Video>
+            </Video> */}
           
         </div>
         <div className="certificat">
@@ -50,6 +50,8 @@ function BannerCards({ item: { cover, name, Cast, video, date, certificate, play
           </div>
 
         </div>
+        <div className="bottom--shadow" />
+
       </div>
       
       </>

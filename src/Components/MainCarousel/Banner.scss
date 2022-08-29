@@ -7,6 +7,14 @@
 
 
 }
+.bottom--shadow{
+    height: 10.4rem ;
+     position: relative;
+     top: -100px;
+     margin-top: -40px;
+    background-image: linear-gradient(transparent 10px, rgb(0, 0, 0) 90%);
+ 
+}
 
 .Information{
     color: heading-text-colors;
@@ -55,7 +63,7 @@
         color: $secondary-font-color;
         font-size: 23px;
         padding: 50px;
-        margin-top: -140px;
+        margin-top: -100px;
         margin-left: 130px ;
         opacity: 5; 
      

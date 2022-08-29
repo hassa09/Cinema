@@ -24,7 +24,7 @@ function Banner({ items }) {
           navigation={true} modules={[Navigation]} className="mySwiper"
          
         >
-        {items.map((item) => {
+        {items?.map((item) => {
           return (
             <SwiperSlide
                 key={item}>
